@@ -1,0 +1,82 @@
+
+/*Header*/
+.logo{
+    display: flex;
+    height: 80px;
+    width: auto;
+    /* justify-content: space-between; */
+
+}
+/*end*/
+
+/*Body background*/
+body{
+    background-color: #f08804;
+    color: white;
+}
+/*end*/
+
+/*Font-Family*/
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*This is Span to set different styling for heading's*/
+span{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+/*Paragraph styling*/
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*Link styling*/
+a{
+    color: rgb(254, 254, 254);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+/*This is styling for all heading */
+.heading{
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+/*end*/
+/*Border Styling*/
+fieldset{
+    border-style: double;
+    border-width: 07xpx; /* Sets the thickness of the double border */
+    border-color: rgb(250, 14, 14);
+    border-radius:40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+/*Styling for all <hr>*/
+hr{
+    width: auto;
+    border: 1px solid rgb(255, 0, 0);
+    height: 1px;
+}
+/*Styling for navigation bar*/
+#nav{
+    padding-left: 180px;
+}
+/*Styling for footer*/
+#logof{
+    height: 100px;
+    width: auto;
+    padding: 0px 50px;
+    margin: 20px 20px;
+    justify-content: space-between;
+}
+
